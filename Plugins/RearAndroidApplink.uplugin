@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "7.1",
+	"FriendlyName": "Rear Android Notifications",
+	"Description": "Additional utilities for mobile games",
+	"Category": "Pickers",
+	"CreatedBy": "AndroidUE4rear.pvt",
+	"CreatedByURL": "Rear Android proudctions",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"EngineVersion":"5.3",
+	"CanContainContent": false,
+	"Installed": true,
+	"RequiresBuildPlatform": true,
+	"Modules": [
+		{
+			"Name": "RearAndroidS3",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": false
+		}
+	]
+}
