@@ -2,26 +2,24 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "7.1",
-	"FriendlyName": "Rear Android Notifications",
-	"Description": "Additional utilities for mobile games",
+	"FriendlyName": "RearAndroidApplink",
+	"Description": "Additional utilities for Android Mobile Games and better UX",
 	"Category": "Pickers",
-	"CreatedBy": "AndroidUE4rear.pvt",
+	"CreatedBy": "RearAndroid.pvt",
 	"CreatedByURL": "Rear Android proudctions",
 	"DocsURL": "",
-	"MarketplaceURL": "",
-	"EngineVersion":"5.3",
+	"MarketplaceURL":"com.epicgames.launcher://ue/marketplace/product/c64782b29f58480e873a96d763a57449",
+	"EngineVersion":"5.1",
 	"CanContainContent": false,
 	"Installed": true,
 	"RequiresBuildPlatform": true,
 	"Modules": [
 		{
-			"Name": "RearAndroidS3",
+			"Name": "RearAndroidApplink",
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"PlatformAllowList": [
 				"Win64",
-				"Win32",
-				"Mac",
 				"Android"
 			]
 		}
